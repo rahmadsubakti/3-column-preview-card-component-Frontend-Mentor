@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+@import 'base';
+@import 'media';
+
+
+.attribution { 
+    position: absolute;
+    bottom: 0;
+    border: 1px solid black;
+    font-size: 11px; 
+    text-align: center; 
+    a { color: hsl(228, 45%, 44%); }
+}
+
+/* for background section */
+.card-orange {
+    background-color: $bright-orange;
+}
+
+.card-dark-cyan {
+    background-color: $dark-cyan;
+}
+
+.card-very-dark-cyan {
+    background-color: $very-dark-cyan;
+}
+
+/*for button*/
+.btn-orange {
+    color: $bright-orange;
+}
+
+.btn-dark-cyan {
+    color: $dark-cyan;
+}
+
+.btn-very-dark-cyan {
+    color: $very-dark-cyan;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 15px;
+}
+

@@ -1,0 +1,30 @@
+@media screen and (max-width: 375px) {
+    body {
+        width: 375px;
+        height: 1502px;
+        padding: 88px 24px;
+    }
+
+    .card-container {
+        flex-direction: column;
+
+        .card {
+            width: 100%;
+            height: calc(1326px / 3);
+            padding: 3rem 3.33rem;
+
+            img {
+                margin-bottom: 2.3rem;
+            }
+
+            .card-title {
+                margin-bottom: 1.7rem;
+            }
+
+            .card-description {
+                line-height: 1.73rem;
+                margin-bottom: 1.4rem;
+            }
+        }
+    }
+}

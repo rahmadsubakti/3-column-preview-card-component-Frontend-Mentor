@@ -1,0 +1,57 @@
+@import 'variables.scss';
+
+body {
+    width: 100vw;
+    height: 800px;
+    padding: 171px calc((100vw - 920px) / 2) 130px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: $very-light-gray;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.card-container {
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+
+    .card {
+        width: calc(920px / 3);
+        padding: 3.33rem 3.2rem;
+    
+        img {
+            margin-bottom: 2.1rem;
+        }
+    
+        .card-title {
+            font-family: 'Big Shoulders Display', cursive;
+            font-size: 2.6rem;
+            text-transform: uppercase;
+            color: $very-light-gray;
+            margin-bottom: 1.7rem;
+        }
+    
+        .card-description {
+            line-height: 1.66rem;
+            margin-bottom: 5.5rem;
+            color: $transparent-white;
+        }
+    
+        button {
+            padding: 1rem 2.09rem;
+            border: 1px solid $very-light-gray;
+            border-radius: 23px;
+            font-size: 1rem;
+            font-weight: 600;
+            background: $very-light-gray;
+            cursor: pointer;
+
+            &:hover {
+                color: $very-light-gray;
+                background: none;
+            }
+        }
+    }
+}
+

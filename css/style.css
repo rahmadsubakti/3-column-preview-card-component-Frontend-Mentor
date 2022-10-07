@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+body {
+  width: 100vw;
+  height: 800px;
+  padding: 171px calc((100vw - 920px) / 2) 130px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: hsl(0deg, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.card-container {
+  display: flex;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.card-container .card {
+  width: 306.6666666667px;
+  padding: 3.33rem 3.2rem;
+}
+.card-container .card img {
+  margin-bottom: 2.1rem;
+}
+.card-container .card .card-title {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  color: hsl(0deg, 0%, 95%);
+  margin-bottom: 1.7rem;
+}
+.card-container .card .card-description {
+  line-height: 1.66rem;
+  margin-bottom: 5.5rem;
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+.card-container .card button {
+  padding: 1rem 2.09rem;
+  border: 1px solid hsl(0deg, 0%, 95%);
+  border-radius: 23px;
+  font-size: 1rem;
+  font-weight: 600;
+  background: hsl(0deg, 0%, 95%);
+  cursor: pointer;
+}
+.card-container .card button:hover {
+  color: hsl(0deg, 0%, 95%);
+  background: none;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    width: 375px;
+    height: 1502px;
+    padding: 88px 24px;
+  }
+  .card-container {
+    flex-direction: column;
+  }
+  .card-container .card {
+    width: 100%;
+    height: 442px;
+    padding: 3rem 3.33rem;
+  }
+  .card-container .card img {
+    margin-bottom: 2.3rem;
+  }
+  .card-container .card .card-title {
+    margin-bottom: 1.7rem;
+  }
+  .card-container .card .card-description {
+    line-height: 1.73rem;
+    margin-bottom: 1.4rem;
+  }
+}
+.attribution {
+  position: absolute;
+  bottom: 0;
+  border: 1px solid black;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+/* for background section */
+.card-orange {
+  background-color: hsl(31deg, 77%, 52%);
+}
+
+.card-dark-cyan {
+  background-color: hsl(184deg, 100%, 22%);
+}
+
+.card-very-dark-cyan {
+  background-color: hsl(179deg, 100%, 13%);
+}
+
+/*for button*/
+.btn-orange {
+  color: hsl(31deg, 77%, 52%);
+}
+
+.btn-dark-cyan {
+  color: hsl(184deg, 100%, 22%);
+}
+
+.btn-very-dark-cyan {
+  color: hsl(179deg, 100%, 13%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 15px;
+}/*# sourceMappingURL=style.css.map */
